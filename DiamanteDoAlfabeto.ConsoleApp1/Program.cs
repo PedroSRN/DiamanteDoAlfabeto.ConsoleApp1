@@ -12,10 +12,6 @@ namespace DiamanteDoAlfabeto.ConsoleApp1
 
             char letraInicial = 'A';//sempre será o A
             char letraAtual = 'F';
-
-
-            
-
             int quantidadeDeEspacos = (letraAtual - letraInicial);
             int quantidadeEspacosInternos = 1;
             
@@ -33,7 +29,7 @@ namespace DiamanteDoAlfabeto.ConsoleApp1
 
                 if (espaco > 65) {
                     
-                    for (int i = 0; i < quantidadeEspacosInternos; i++)
+                    for (int i = 0; i < quantidadeEspacosInternos; i++)//espacos internos
                     {
                         Console.Write(" ");
 
